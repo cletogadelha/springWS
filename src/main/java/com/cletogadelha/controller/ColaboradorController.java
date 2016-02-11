@@ -23,7 +23,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.cletogadelha.entity.Colaborador;
 import com.cletogadelha.service.ColaboradorService;
 
-@CrossOrigin(origins = "http://localhost:9000")
+@CrossOrigin(origins = "https://http://angularappcds.herokuapp.com")
 @RestController
 @RequestMapping("/rest/colaborador")
 public class ColaboradorController {
